@@ -148,21 +148,21 @@
   // }
 
 
-  function quadraticFormulaPlusPart(a, b, c, isPlus){
-    let topOfFraction 
+//   function quadraticFormulaPlusPart(a, b, c, isPlus){
+//     let topOfFraction 
     
-    if(isPlus){
-      topOfFraction = -b + Math.sqrt((b * b) - (4 * a * c))
-    }else{
-      topOfFraction = -b - Math.sqrt((b * b) - (4 * a * c))
-      }
-    let bottomOfFraction = 2 * a
-let x = topOfFraction / bottomOfFraction
-return x
-  }
+//     if(isPlus){
+//       topOfFraction = -b + Math.sqrt((b * b) - (4 * a * c))
+//     }else{
+//       topOfFraction = -b - Math.sqrt((b * b) - (4 * a * c))
+//       }
+//     let bottomOfFraction = 2 * a
+// let x = topOfFraction / bottomOfFraction
+// return x
+//   }
 
-  let answer1a = console.log(quadraticFormulaPlusPart(5, 6, 1, true))
-  let answer1b = console.log(quadraticFormulaPlusPart(5, 6, 1, false))
+//   let answer1a = console.log(quadraticFormulaPlusPart(5, 6, 1, true))
+//   let answer1b = console.log(quadraticFormulaPlusPart(5, 6, 1, false))
 
 
 // // Calling a Function
@@ -234,29 +234,29 @@ return x
 //     return 'Bye!'
 // }
 
-// // Arrow Functions
-// console.log(' ')
-// console.log('Arrow Functions ---------------')
+// Arrow Functions
+console.log(' ')
+console.log('Arrow Functions ---------------')
 
-// const returnParam = item => {
-//     return item
-// }
-// const makeArr = (one, two, three) => {
-//     let arr = [one, two, three]
-//     return arr
-// }                    // what is different???
+const returnParam = item => {
+    return item
+}
+const makeArr = (one, two, three) => {
+    let arr = [one, two, three]
+    return arr
+}                    // what is different???
 
-// // const giveMeFive = () => 5
-// // const addFive = num => num + 5
-// // dont' need 'return' keyword in one-line arrow functions.
+// const giveMeFive = () => 5
+// const addFive = num => num + 5
+// dont' need 'return' keyword in one-line arrow functions.
 
-// const makePriceObj = number => ({price: number}) // wrapping the object’s curly braces in parentheses so that they’re not mistaken for the curly braces that hold function blocks.
+const makePriceObj = number => ({price: number}) // wrapping the object’s curly braces in parentheses so that they’re not mistaken for the curly braces that hold function blocks.
 
-// const makeLargeObj = (str, num, arr) => (
-//     {
-//         word: str,
-//         integer: num,
-//         list: arr
-//     }
-// )  // You can also wrap implicit returns in parentheses and still have them on a new line.
+const makeLargeObj = (str, num, arr) => (
+    {
+        word: str,
+        integer: num,
+        list: arr
+    }
+)  // You can also wrap implicit returns in parentheses and still have them on a new line.
 
